@@ -1,5 +1,34 @@
-#backgroundimage
-{
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#bgimg {
 	height:auto;
 	width: 100%;
+	position: top;
+
+}
+
+.team {
+	width: 100%;
+	text-align: center;
+}
+
+.member {
+	width: 23%;
+	display: inline-block;
+	margin: 0.5%;
+	background-color: #F5F5F5;
+}
+
+.member img {
+	width: 85%;
+	border-radius: 50%;
+}
+
+.member p {
+	padding: 0px 20px;
+	text-align: justify;
+	justify-content: inter-word;
 }
